@@ -16,12 +16,12 @@ public class PessoaCandidata extends Pessoa {
 
   @Override
   public String getNome() {
-    return super.getNome();
+    return super.nome;
   }
 
   @Override
   public void setNome(String nome) {
-    super.setNome(nome);
+    super.nome = nome;
   }
 
   public int getNumero() {
